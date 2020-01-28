@@ -57,8 +57,9 @@ article h2 {
 
 ul, li, a {
   color: #00573F;
-  line-height: 1.3em;
-  font-size: 1.05em;
+  line-height: 1.5em;
+  font-size: 1em;
+  margin-bottom: 10px;
 }
 
 footer {
