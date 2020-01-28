@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javascript Function Experimentation</title>
+</head>
+<body>
+    <h1>Javascript Function Experimentation</h1>
+
+    <script>
+
+    // This program asks the user for their name and uses an array of car brand names to make conversation. The greeting function asks for their name and greets them. The rich function asks the user for a number of cars and parses through their response to see if it is an integer. The drive function starts with printing a random car from the array and then uses the user's given number as a limit to loop through the cars array and print out car brand names.//
+
+        var name = prompt("What's your name?", "");
+        var cars = ["Porsche", "Ferrari", "Tesla", "Mercedes", "BMW", "Lexus", "Cadillac"];
+
+
+        function greeting(name) {
+            if (name == "" || name == null) {
+                console.log("I didn't get that");
+            }
+            else {
+                var hello = console.log(`Hello ${name}!`);
+            }
+            return greeting;
+        }
+        greeting(name);
+
+
+        function randomInt (min, max) {
+          return Math.floor( (max - min + 1) * Math.random()  ) + min;
+        }
+
+
+        function rich () {
+          userInt = prompt(`How many cars do you want, ${name}? Please enter a number between 1 to 5.`, "");
+          if  (parseInt(userInt) ) {
+            console.log(`Oh wow! You want ${userInt} cars!`);
+          }
+          else {
+            prompt("You didn't tell me a number", "");
+          }
+        return userInt;
+        }
+
+
+        function drive( vehicle, userInt ) {
+          var randomCar = vehicle[ randomInt(0, vehicle.length -1) ];
+          console.log(`I drive a ${randomCar}!`);
+          console.log(`Let me guess your car`);
+          for (var i=0; i<userInt; i++) {
+            var userCar = vehicle[ randomInt(0, vehicle.length -1) ];
+            console.log(`Do you drive a ${vehicle[i]}?`);
+          }
+        }
+        drive(cars, rich());
+
+    </script>
+</body>
+</html>

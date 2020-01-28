@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>JavaScript Basic Challenges: Challenge 1</title>
+</head>
+
+<body>
+    <h1>JavaScript Flow Control Experimentation</h1>
+
+    <script>
+
+// The program asks the user if they are hungry or not and based on their answer, it changes the statement to be printed out. If the user says they are hungry, the program prints out a series of foods. If the user is not hungry, the program states the user is not hungry and stops. Otherwise, the programs prints out a series of foods from a list.
+
+        var myString = "I'm hungry";
+        var myFoods = ["cake", "chicken", "chocolate", "bread", "noodles", "fruits", "veggies", "fries", "donuts"];
+
+        var userInput = prompt("Enter 1 if you're hungry and 2 if you're not hungry");
+
+        // the user is hungry, ask about foods
+        if (userInput == 1) {
+          myString = myString.toUpperCase();
+          console.log(`${myString}!`);
+          var foodString = "How about we eat";
+          for (var i=0; i<myFoods.length; i++){
+            console.log(`${foodString} ${myFoods[i]}?!`);
+          }
+        }
+
+        // the user is not hungry, state not hungry
+        else if (userInput==2) {
+          var addWord = myString.search("hungry");
+          var newString = myString.slice(0, 3) + ' not ' + myString.slice(addWord, addWord+6);
+          console.log(`${newString}`)
+          console.log("Aw okay :(")
+        }
+
+        // the user says something different, ask about foods
+        else {
+          var foodString = "How about we eat";
+          for (var i=0; i<myFoods.length; i++){
+            console.log(`${foodString} ${myFoods[i]}?!`);
+          }
+        }
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,111 @@
+
+header {
+    background: rgb(244,243,238);
+    background: linear-gradient(90deg, rgba(244,243,238,1) 0%, rgba(213,189,177,1) 38%, rgba(224,148,125,1) 100%);
+}
+
+body{
+    background-color: #d1ccc4;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+
+nav ul li a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    display: block;
+    padding: 5px;
+    line-height: 50px;
+    color: #463f3a;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #463f3a;
+}
+
+a:hover {
+    color: #e0947d;
+}
+
+ul {
+    margin-left: -50px;
+}
+
+ul, li{
+    list-style-type: none;
+}
+
+main {
+    background-color: #8a817c;
+    margin: 30px;
+    text-align: left;
+    padding: 40px;
+}
+
+.turtles {
+    background-image: url("images/turtles.jpg");
+    background-size: cover;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.turtles h2 {
+    padding-left: 10px;
+    background-color: rgba(1, 1, 1, 0.35)
+}
+
+.turtles p {
+    color: #f4f3ee;
+    background-color: rgba(1, 1, 1, 0.35)
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.5em;
+    text-align: center;
+    color: #463f3a;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: #f4f3ee;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 30px;
+}
+
+p {
+    color: #463f3a;
+    font-size: 1.5em;
+    line-height: 1.75em;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+img {
+    padding: 20px;
+    margin-left: -10px;
+}
+
+footer {
+    font-size: 0.75em;
+    text-align: left;
+    background: rgb(244,243,238);
+    background: linear-gradient(90deg, rgba(244,243,238,1) 0%, rgba(213,189,177,1) 38%, rgba(224,148,125,1) 100%);
+}
+
+footer p {
+    margin-left: 50px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML and CSS Refresher Challenges</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap" rel="stylesheet">
+
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1>HTML and CSS Refresher Challenges</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">HTML Basics</a></li>
+            <li><a href="cssbasics.html">CSS Basics</a></li>
+            <li><a href="layout.html">Page Layout</a></li>
+            <li><a href="responsive.html">Responsive Design</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <article>
+            <h2>Inheritance in CSS</h2>
+            <p>In CSS, inheritance controls what happens when no value is specified for a property or element. Inheritance will cause the element to inherit the value or property of whichever element is placed above it in terms of hierarchy. Properties like color, font-size, font-family, etc are inherited. When no value is given for a non-inherited property, the property gets assigned the initial or default value. An example of a non-inherited property can be background-image, border, etc.</p>
+        </article>
+                
+        <article>
+            <h2>Specificity in CSS</h2>
+            <p>Specificity in CSS is the set of rules or score applied to CSS selectors in order to assign styles to an element. Specificity is determined by the number of each selector type. It only applies when an element is targetted by multiple CSS declarations. When deciding which styles to apply to an element, if the specificity for that element is high, then the browser will most likely choose the CSS declarations given for that element. A multiple selector is a sequence of simple selectors which are not separated by a combinator and represents simultaneous conditions instead of combined conditions and a compound selector selects the combined results of all specified selectors.</p>
+        </article>
+                
+        <article>
+            <h2>ID and Class Attributes</h2>
+            <p>The ID attribute is a unique attribute applied to an element. IDs can only be applied to one element. It is used in CSS by using the # symbol followed by id. The class attribute is used to classify multiple class names for an element. Classes can be applied to multiple elements. This is used in CSS by using the "." symbol followed by the class name.</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>Page by Neha Deshmukh</p>
+        <p>HTML checked by Alana</p>
+        <p><a href="http://validator.w3.org/check?uri=referer">Valid HTML</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML and CSS Refresher Challenges</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap" rel="stylesheet">
+
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1>HTML and CSS Refresher Challenges</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">HTML Basics</a></li>
+            <li><a href="cssbasics.html">CSS Basics</a></li>
+            <li><a href="layout.html">Page Layout</a></li>
+            <li><a href="responsive.html">Responsive Design</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <article>
+            <h2>Structure, Phrasing and Display</h2>
+            <p>In HTML, elements are categorized as structural (block) elements or inline elements. Block elements can contain inline elements. Block elements by default begin on a new line and take up the full width of a page, whereas inline elements can begin anywhere in a line and take up space depending on their size. The display property in CSS specifies how an element looks or is displayed. Default display is taken from the browser or HTML specifications. The display property can have values none, inline, block and inline-block.</p>
+        </article>
+                
+        <article>
+            <h2>Box Model</h2>
+            <img src="images/boxmodel.png" alt="Box Model" width="600" height="400">
+            <p>CSS box model is used for the design and layout of a page. It creates a box around every HTML element and includes margin, padding and borders along with the content. The box model lets us add a border around elements and control the space in between them. The box-sizing affects the total height and width of the element box, which changes the padding, margins and borders. Using the content-box value for box-sizing can allow us to only alter the layout of the content, excluding margins, padding, etc. Using border-box values will exclude the margins but include everything else.</p>
+        </article>
+                
+        <article class="turtles">
+            <h2>Background Images</h2>
+            <p>In HTML, to add an image we use the img tag. In CSS, we use background image as the tag. Usually, to use an image as part of the content and something which you do not need to decorate or write over, you should use the HTML img tag. For decoartive purposes like using an image for the background, you should use the CSS background image tag.</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>Page by Neha Deshmukh</p>
+        <p>HTML checked by Alana</p>
+        <p><a href="http://validator.w3.org/check?uri=referer">Valid HTML</a></p>
+    </footer>
+</body>
+</html>
