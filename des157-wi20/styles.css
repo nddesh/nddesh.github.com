@@ -58,15 +58,9 @@ article h2 {
 ul, li, a {
   text-decoration: none;
   color: #00573F;
-  line-height: 2em;
+  line-height: 1.6em;
   font-size: 1em;
   margin-bottom: 10px;
-}
-
-a {
-  text-decoration: none;
-  font-size: 1em;
-  line-height: 2em;
 }
 
 a:hover {
