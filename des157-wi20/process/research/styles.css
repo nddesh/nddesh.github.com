@@ -6,8 +6,6 @@ body {
 
 main {
   max-width: 1200px;
-  min-width: 800px;
-  padding: 20px;
   margin: auto;
 }
 
@@ -48,7 +46,7 @@ p {
   font-size: 1.2em;
   line-height: 1.7em;
   color: #f3e9d2;
-  
+
 }
 
 nav {
