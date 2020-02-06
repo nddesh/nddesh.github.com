@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Miles to Kilometers Converter</title>
+
+	<!--/ /-------- Normalize CSS --------/ /-->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+	<!--/ /-------- Google Fonts --------/ /-->
+	<link href="https://fonts.googleapis.com/css?family=Oswald|PT+Sans&display=swap" rel="stylesheet">
+
+	<!--/ /-------- My Styles --------/ /-->
+	<link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<header>
+		<h1>Miles to Kilometers Converter</h1>
+		<nav>
+			<a href="../index.html">Home Portal Page</a>
+		</nav>
+	</header>
+
+    <div class="container top">
+    	<p>Type in a number of miles and click the button to convert the distance to kilometers.</p>
+
+        <form method="post" action="somephpfile.php" id="convert">
+
+        	<input type="text" name="distance" id="distance" placeholder="distance">
+            <input type="submit" name="convertdist" value="Convert Distance">
+
+        </form>
+    </div>
+    <div class="container bottom" id="answer">
+    	<h2 class="invisible">Answer goes here</h2>
+    </div>
+
+	<script>
+		var myform = document.getElementById("convert");
+
+
+		function convertDist(miles) {
+			var kmDist = miles*1.609344;
+			var kmDist = kmDist.toFixed(3);
+			return kmDist;
+		}
+
+		myform.addEventListener('submit', function(event) {
+			event.preventDefault();
+			var myInput = document.getElementById("distance").value;
+			var userNum = myInput;
+			if (!parseFloat(userNum)){
+				alert("Please enter a number!");
+			}
+			else {
+				kmConvert = convertDist(userNum);
+				// var answer = document.getElementById("answer");
+				var inputAns = document.querySelector("#answer");
+				inputAns.innerHTML = `<h2>${userNum} miles converts to ${kmConvert} kilometers</h2>`;
+			}
+		});
+
+	</script>
+</body>
+</html>
