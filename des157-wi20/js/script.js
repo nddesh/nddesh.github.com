@@ -1,65 +1,70 @@
-color penColor = color(255, 255, 255);
-color a = color(255, 255, 255); //white
-color b = color(255, 0, 0); //red
-color c = color(0, 255, 0); //green
-color d = color(0, 0, 255); //blue
-color e = color(250, 250, 0); //yellow
+var penColor = `#ffffff`;
+var a = `#ffffff`; //white
+var b = `#ff0000`; //red
+var c = `#00ff00`; //green
+var d = `#0000ff`; //blue
+var e = `#fafa00`; //yellow
 
 function setup() {
   var myCanvas = createCanvas(800, 250);
-  background(0);
+  myCanvas.parent(mySketch);
+  background(`#000000`);
 }
 
 function draw() {
+  textSize(18);
+  noStroke();
+  text("LET'S DRAW!", 680, 50)
+
   //white button
   noStroke();
   fill(a);
-  rect(680, 50, 50, 40);
+  rect(680, 70, 50, 40);
 
   //red button
   noStroke();
   fill(b);
-  rect(680, 90, 50, 40);
+  rect(680, 120, 50, 40);
 
   //green button
   noStroke();
   fill(c);
-  rect(680, 130, 50, 40);
+  rect(680, 170, 50, 40);
 
   //blue button
   noStroke();
   fill(d);
-  rect(740, 50, 50, 40);
+  rect(740, 70, 50, 40);
 
   //yellow button
   noStroke();
   fill(e);
-  rect(740, 90, 50, 40);
+  rect(740, 120, 50, 40);
 
   //clear board when key pressed
   stroke(255);
   strokeWeight(1);
-  fill(0);
-  rect(740, 130, 50, 40);
-  fill(255);
-  textSize(15);
-  text("CLEAR", 742, 130);
+  fill(`#000000`);
+  rect(740, 170, 50, 40);
+  fill(`#ffffff`);
+  textSize(14);
+  text("CLEAR", 742, 195);
 
   //mouse movement
   if (mouseIsPressed) {
-    if (mouseX > 680 && mouseX < 720) {
+    if (mouseX > 680 && mouseX < 730) {
       //white button
-      if (mouseY > 50 && mouseY < 90) {
+      if (mouseY > 70 && mouseY < 110) {
         penColor = a;
       }
 
       //red button
-      else if (mouseY > 90 && mouseY < 130) {
+      else if (mouseY > 120 && mouseY < 160) {
         penColor = b;
       }
 
       //green button
-      else if (mouseY > 130 && mouseY < 170) {
+      else if (mouseY > 170 && mouseY < 210) {
         penColor = c;
       }
     }
@@ -69,25 +74,25 @@ function draw() {
       //color buttons
 
       //blue button
-      else if (mouseY > 210 && mouseY < 250) {
+      if (mouseY > 70 && mouseY < 110) {
         penColor = d;
       }
 
       //yellow button
-      else if (mouseY > 250 && mouseY < 290) {
+      else if (mouseY > 120 && mouseY < 160) {
         penColor = e;
       }
 
-      else if (mouseY > 300 && mouseY < 340) {
-        background(0);
+      else if (mouseY > 170 && mouseY < 210) {
+        background(`#000000`);
       }
     }
   }
 
   //draw only when mouse is pressed
   if (mouseIsPressed) {
-    if (mouseX > 0 && mouseX < 500) {
-      if (mouseY > 0 && mouseY < 500) {
+    if (mouseX > 0 && mouseX < 670) {
+      if (mouseY > 0 && mouseY < 670) {
           stroke(penColor);
           strokeWeight(2);
           line(mouseX, mouseY, pmouseX, pmouseY);

@@ -36,41 +36,9 @@
     <p id="directions">Press the "K" key to switch to kilometer converstion, press the "M" key to switch to mile conversion</p>
 
 	<script>
-		var myform =document.getElementById("convert");
-
-		// convert km to miles
-		function km() {
-			myform.addEventListener('submit', function(event) {
-				event.preventDefault();
-				var myInput = document.getElementById("distance").value;
-				var userNum = myInput;
-				if (!parseFloat(userNum)){
-					alert("Please enter a number!");
-				}
-				else {
-					milesConvert = convertDistM(userNum);
-					var inputAns = document.querySelector("#answer");
-					inputAns.innerHTML = `<h2>${userNum} kilometers converts to ${milesConvert} miles</h2>`;
-				}
-			});
-		}
-
-		// convert miles to km
-		function miles() {
-			myform.addEventListener('submit', function(event) {
-				event.preventDefault();
-				var myInput = document.getElementById("distance").value;
-				var userNum = myInput;
-				if (!parseFloat(userNum)){
-					alert("Please enter a number!");
-				}
-				else {
-					kmConvert = convertDistKm(userNum);
-					var inputAns = document.querySelector("#answer");
-					inputAns.innerHTML = `<h2>${userNum} miles converts to ${kmConvert} kilometers</h2>`;
-				}
-			});
-		}
+		var mode = 77;
+		var heading = document.querySelector("h1");
+		var descrip = document.querySelector("div p");
 
 		function convertDistM(miles) {
 			var kmDist = miles*1.609344;
@@ -81,51 +49,51 @@
 		function convertDistKm(km) {
 			var milesDist = km*0.621371192;
 			var milesDist = milesDist.toFixed(3);
-			console.log("milesDist")
 			return milesDist;
 		}
 
-		window.addEventListener('keydown', function(event) {
-			event.preventDefault();
-			var keyPressed = parseInt(event.which);
-			if (keyPressed == 75 || keyPressed == 77) {
-				switch (keyPressed) {
-					case 75:
-					var heading = document.querySelector("h1");
-					heading.innerHTML = `Kilometers to Miles Converter`;
-					var descrip = document.querySelector("div p");
-					descrip.innerHTML = `Type in a number of kilometers and click the button to convert the distance to miles.`;
-					break;
+		document.addEventListener('keydown', function(event) {
+			var keyPressed = event.which;
 
-					case 77:
-					var heading = document.querySelector("h1");
-					heading.innerHTML = `Miles to Kilometers Converter`;
-					var descrip = document.querySelector("div p");
-					descrip.innerHTML = `Type in a number of miles and click the button to convert the distance to kilometers.`;
-					break;
-
-					// default: alert("Please choose within the given keys!")
-				}
-				function converterType() {
-					if (keyPressed == 75) {
-						km();
-					}
-					if (keyPressed == 77) {
-						miles();
-					}
-				}
+			if (keyPressed == 75) {
+				mode = 75;
+				heading.innerHTML = `Kilometers to Miles Converter`;
+				descrip.innerHTML = `Type in a number of kilometers and click the button to convert the distance to miles.`;
 			}
-			else {
-				if (!parseFloat(keyPressed)){
-					alert("Please enter a number!");
-				}
-				else {
-					converterType();
-				}
+
+			else if (keyPressed == 77) {
+				mode = 77;
+				heading.innerHTML = `Miles to Kilometers Converter`;
+				descrip.innerHTML = `Type in a number of miles and click the button to convert the distance to kilometers.`;
 			}
 		});
 
 
+		var myform =document.getElementById("convert");
+		myform.addEventListener('submit', function(event) {
+			event.preventDefault();
+			var userNum = document.getElementById("distance").value;
+			if (parseFloat(userNum)) {
+
+				if (mode == 77) {
+					// convert miles to km
+					kmConvert = convertDistKm(userNum);
+					var inputAns = document.getElementById("answer");
+					inputAns.innerHTML = `<h2>${userNum} miles converts to ${kmConvert} kilometers</h2>`;
+				}
+
+				else {
+					// convert km to miles
+					var milesConvert = convertDistM(userNum);
+					var inputAns = document.getElementById("answer");
+					inputAns.innerHTML = `<h2>${userNum} kilometers converts to ${milesConvert} miles</h2>`;
+				}
+			}
+			else {
+				//if userNum is not a number
+				document.getElementById("answer").innerHTML = "<h2>Please enter a number</h2>";
+			}
+		});
 
 	</script>
 </body>
