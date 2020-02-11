@@ -1,0 +1,80 @@
+body {
+  background-color: #f7d6b5;
+  font-family: 'Ubuntu-Regular', sans-serif;
+}
+
+header {
+  color: #c40900;
+  margin-left: auto;
+  padding: 30px;
+  font-size: 1.5em;
+}
+
+input {
+  display: block; margin-bottom: 20px;
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+    display: block;
+    position: absolute;
+    top: 220px;
+    left: 20px;
+    width: 550px;
+    padding: 20px;
+    color: #ffffff;
+    background-color: #c40900;
+}
+
+article {
+  display: block;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 120px;
+  padding: 20px;
+}
+
+img {
+  display: block;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+form {
+  padding: 20px;
+  margin-left: 70px;
+}
+
+form p{
+  margin-top: 100px;
+}
+
+form input {
+  background-color: beige;
+  padding: 10px;
+  border: 3px solid #009900;
+}
+
+#submit {
+  margin-top: 150px;
+  -webkit-transition-duration: 0.4s;
+transition-duration: 0.4s;
+}
+
+#submit:hover {
+  background-color: #009900; /* Green */
+  color: #ffffff;
+}
+
+p {
+  line-height: 1.5em;
+  font-size: 1em;
+}
