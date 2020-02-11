@@ -62,6 +62,7 @@ nav a {
   color: #ffffff;
   text-decoration: none;
   padding: 10px;
+  margin-left: -2px;
   border: 2px solid #88d498;
   -webkit-transition-duration: 0.4s;
 transition-duration: 0.4s;
@@ -73,14 +74,18 @@ nav a:hover {
 }
 
 ul, li, a {
-  color: #00573F;
+  margin-left: 20px;
+  color: #88d498;
   line-height: 1.3em;
   font-size: 1em;
 }
 
+#links {
+  color: #88d498;
+}
+
 footer {
   font-family: 'OpenSans-Regular', sans-serif;
-  margin-left: 20px;
   margin-top: 50px;
   display: flex;
   flex-direction: column;
@@ -92,7 +97,7 @@ footer h2 {
   color: #88d498;
 }
 
-footer a {
+footer section a {
   color: #FFFFFF;
   text-decoration: none;
   font-size: 0.75em;
