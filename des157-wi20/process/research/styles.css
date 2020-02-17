@@ -80,8 +80,17 @@ ul, li, a {
   font-size: 1em;
 }
 
-#links {
+#links a{
   color: #88d498;
+  margin-left: 20px;
+}
+
+#links p {
+  margin-left: 20px;
+}
+
+#links {
+  margin-bottom: 80px;
 }
 
 footer {
