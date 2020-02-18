@@ -1,0 +1,121 @@
+
+h1, p, div, ul, li, a {
+  margin: 0; padding: 0;
+}
+
+p {
+  margin: 10px;
+  line-height: 1.3em;
+}
+
+body {
+	padding: 50px;
+	font-family: 'Neucha', sans-serif;
+	font-size: 2em;
+  text-align: center;
+}
+
+h1 {
+	font-size: 2em;
+  font-weight: 800;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1em;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+#bubbles {
+  display: block;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  padding: 0 30px;
+  margin-top: 150px;
+}
+
+#bubbles li {
+  display: block;
+  width: 200px;
+  height: 300px;
+  margin-bottom: 400px;
+}
+
+#bubbles li img {
+	position: relative;
+	pointer-events: none;
+	z-index: 400;
+}
+
+#bubbles li.selected img {
+	width: 200px;
+	transition: all .5s ease-in-out;
+
+}
+
+#bubbles li.hover-selected img {
+	transform: scale(1.2,1.2);
+	z-index: 401;
+  transition: all .5s ease-in-out;
+}
+
+
+#bubbles li.hover-selected .info-bubble {
+	opacity: 1;
+	z-index: 401;
+	-webkit-transition-delay: .5s;
+	transition-delay: .5s;
+	pointer-events: all;
+}
+
+.info-bubble {
+	position: relative;
+	pointer-events: none;
+  margin-bottom: 50px;
+  margin-left: 400px;
+	right: 0px;
+	width: 500px;
+  bottom: 360px;
+	z-index: 399;
+	padding: 10px;
+	opacity: 0;
+	transition: all .5s ease-in-out;
+}
+
+.info {
+  top: -70px;
+	position: absolute;
+	z-index: 402;
+  padding: 10px;
+	text-align: left;
+  transition: all .3s ease-in-out;
+}
+
+.fade {
+	animation: fadein 2s ease-out forwards;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+img {
+  padding: 20px;
+}
+
+.one {
+  background: #C5E8ED;
+  transition: all .5s;
+}
