@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  background-color: #2A2C39;
+  font-family: 'Arial', sans-serif;
+  font-weight: 200;
+  font-size: 30px;
+}
+
+div {
+  margin-top: 50px;
+  margin: auto;
+}
+
+#map-holder {
+  width: 1000px;
+  height: 450px;
+  margin: auto;
+}
+svg rect {
+  fill: #ffffff;   /* map background colour */
+}
+.country{
+  fill: #002855;   /* country colour */
+  stroke: #c3c3c3; /* country border colour */
+  stroke-width: 1; /* country border width */
+}
+.country-on{
+  fill: #00ABD0;   /* highlight colour for selected country */
+}
+.countryLabel{
+  display: none;   /* hide all country labels by default */
+}
+.countryName{
+  fill: #ffffff;   /* country label text colour */
+}
+
+.countryLabelBg{
+  fill: #FFC700;  /* country label background colour */
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  border: 2px solid #000000;
+  padding: 10px;
+  -webkit-transition-duration: 0.4s;
+transition-duration: 0.4s;
+}
+
+nav a:hover {
+  background-color: #9b000f;
+  color: #ffffff;
+}
