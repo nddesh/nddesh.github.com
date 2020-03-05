@@ -1,15 +1,29 @@
 body {
   margin: 0;
-  background-color: #2A2C39;
+  background-color: gray;
   color: #ffffff;
   font-family: 'Arial', sans-serif;
   font-weight: 200;
   font-size: 30px;
 }
 
+header {
+  margin-left: 50px;
+}
+
+h1 {
+  font-size: 1.2em;
+  color: #000000;
+}
+
+h2 {
+  font-size: 0.6em;
+  font-weight: 100;
+}
+
 div {
-  margin-top: 80px;
   margin: auto;
+  padding-top: 50px;
 }
 
 #map-holder {
@@ -46,9 +60,10 @@ nav a {
   padding: 10px;
   -webkit-transition-duration: 0.4s;
 transition-duration: 0.4s;
+font-size: 0.5em;
 }
 
 nav a:hover {
-  background-color: #9b000f;
+  background-color: #FFC700;
   color: #ffffff;
 }
