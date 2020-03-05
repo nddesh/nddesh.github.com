@@ -1,5 +1,5 @@
 body {
-  background-color: #114b5f;
+  background-color: #00415e;
   color: #FFFFFF;
 }
 
@@ -11,28 +11,28 @@ main {
 header {
   margin: auto;
   padding-left: 20px;
-  font-family: 'Ubuntu-Regular', sans-serif;
+  font-family: 'Trebuchet MS', sans-serif;
   font-size: 1.5em;
 }
 
 article {
   text-align: left;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
   padding: 10px;
 }
 
 h2 {
-  font-family: 'Ubuntu-Regular', sans-serif;
+  font-family: 'Trebuchet MS', sans-serif;
   font-weight: normal;
-  color: #88d498;
+  color: #88d190;
   font-size: 1.25em;
 }
 
 h3 {
-  font-family: 'Ubuntu-Regular', sans-serif;
+  font-family: 'Trebuchet MS', sans-serif;
   margin-top: 80px;
   margin-left: 20px;
-  color: #FFFFFF;
+  color: #88d190;
   font-size: 2em;
   margin-bottom: 20px;
 }
@@ -49,8 +49,25 @@ p {
   max-width: 800px;
   font-size: 1.2em;
   line-height: 1.7em;
-  color: #f3e9d2;
+  color: #e5e5e5;
+  margin-top: 0px;
+  margin-left: 10px;
+}
 
+#links p a {
+  color: #88d190;
+}
+
+#links2 a {
+  color: #e5e5e5;
+}
+
+#foot {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-left: -10px;
 }
 
 nav {
@@ -77,15 +94,11 @@ ul, li, a {
   margin-left: 20px;
   color: #88d498;
   line-height: 1.3em;
-  font-size: 1em;
+  font-size: 0.8em;
 }
 
 #links a{
-  color: #88d498;
-  margin-left: 20px;
-}
-
-#links p {
+  color: #e5e5e5;;
   margin-left: 20px;
 }
 

@@ -1,7 +1,8 @@
 "use strict";
 
 // listen for the submission of the form
-document.getElementById("myform").addEventListener("submit", function(event){
+var madlibs = document.getElementById("myform");
+madlibs.addEventListener("submit", function(event){
     // prevent the default behavior
     event.preventDefault();
 
@@ -38,4 +39,9 @@ function makeMadLib(theWords){
 
     //change the class on the madlib container so you can see it.
     mlContainer.setAttribute("class", "visible");
+    document.getElementById("submit").value = `Scroll down!`;
+    // var mlbutton = document.createElement("p");
+    // var textnode = document.createTextNode("Scroll Down!");
+    // mlbutton.appendChild(textnode);
+    // madlibs.appendChild(mlbutton);
   }

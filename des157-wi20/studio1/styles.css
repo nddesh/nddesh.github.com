@@ -1,17 +1,23 @@
 body {
-  background-color: #f7d6b5;
-  font-family: 'Ubuntu-Regular', sans-serif;
+  font-family: 'Trebuchet MS', sans-serif;
 }
 
 header {
+  background-color: #ffd683;
   color: #c40900;
-  margin-left: auto;
-  padding: 30px;
+  padding: 20px;
+  margin: 20px;
   font-size: 1.6em;
+  border-radius: 20px;
+}
+
+header h1, p, nav {
+  margin-left: 20px;
 }
 
 input {
-  display: block; margin-bottom: 20px;
+  display: block;
+  margin-bottom: 20px;
 }
 
 .invisible {
@@ -20,13 +26,18 @@ input {
 
 .visible {
     display: block;
-    position: absolute;
-    top: 320px;
+    top: 2000px;
     left: 30px;
-    width: 550px;
+    width: 800px;
     padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
     color: #ffffff;
     background-color: #c40900;
+    -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
 
 article {
@@ -36,8 +47,8 @@ article {
 section {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  margin-top: 120px;
+  justify-content: space-around;
+  margin-top: 50px;
   padding: 20px;
 }
 
@@ -45,7 +56,6 @@ img {
   display: block;
   padding: 20px;
   margin: auto;
-  margin-bottom: 30px;
 }
 
 form {
@@ -53,20 +63,27 @@ form {
   margin-left: 70px;
 }
 
-form p{
+form p {
   margin-top: 100px;
+  margin-left: -10px;
+  font-size: 1.3em;
 }
 
 form input {
-  background-color: beige;
+  background-color: transparent;
   padding: 10px;
   border: 3px solid #009900;
+  font-size: 1em;
+  margin-left: 60px;
 }
 
 #submit {
   margin-top: 150px;
   -webkit-transition-duration: 0.4s;
 transition-duration: 0.4s;
+  padding: 20px;
+  font-size: 1.2em;
+  justify-content: center;
 }
 
 #submit:hover {
@@ -86,17 +103,35 @@ nav {
 
 nav a {
   font-size: 0.8em;
-  background-color: #e09748;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #c40900;
   text-decoration: none;
   padding: 15px;
   margin-left: -2px;
-  border: 3px solid #c40900;
   -webkit-transition-duration: 0.4s;
 transition-duration: 0.4s;
+border-radius: 10px;
 }
 
 nav a:hover {
   background-color: #c40900; /* Green */
   color: #ffffff;
+}
+
+#color {
+  background-color: #ffd683;
+  padding: 50px 50px 50px 0px;
+  border-radius: 20px;
+  margin-left: 50px;
+}
+
+#img {
+  margin-top: 120px;
+  margin-left: -30px;
+}
+
+#caution {
+  color: #c40900;
+  font-size: 1.5em;
+  margin: 0 0 30px 100px;
 }

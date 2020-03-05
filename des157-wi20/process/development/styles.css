@@ -1,6 +1,6 @@
 
 body {
-  background-color: #114b5f;
+  background-color:  #00415e;
   color: #FFFFFF;
 }
 
@@ -12,7 +12,7 @@ main {
 header {
   margin: auto;
   padding-left: 20px;
-  font-family: 'Ubuntu-Regular', sans-serif;
+  font-family: 'Trebuchet MS', sans-serif;
   font-size: 1.5em;
 }
 
@@ -30,8 +30,9 @@ article {
 }
 
 h2 {
-  color: #88d498;
-  font-size: 2em;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #88d190;
+  font-size: 2.5em;
 }
 
 img {
@@ -44,7 +45,7 @@ p {
   max-width: 800px;
   font-size: 1.2em;
   line-height: 1.7em;
-  color: #f3e9d2;
+  color: #e5e5e5;
 }
 
 nav {
@@ -52,13 +53,13 @@ nav {
 }
 
 nav a {
-  border: 2px solid #88d498;
+  border: 2px solid #88d190;
   -webkit-transition-duration: 0.4s;
 transition-duration: 0.4s;
 }
 
 nav a:hover {
-  background-color: #88d498; /* Green */
+  background-color: #88d190; /* Green */
   color: #00573F;
 }
 
