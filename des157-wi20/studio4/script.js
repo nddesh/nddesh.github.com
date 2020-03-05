@@ -136,7 +136,7 @@ var svg = d3
 
 // get map data
 d3.json(
-  "https://raw.githubusercontent.com/nddesh/nddesh.github.com/master/des157-wi20/studio4/countries.json",
+  "https://raw.githubusercontent.com/nddesh/nddesh.github.com/master/des157-wi20/countries.json",
   function(json) {
     //Bind data and create one path per GeoJSON feature
     countriesGroup = svg.append("g").attr("id", "map");
