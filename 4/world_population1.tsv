@@ -1,7 +1,7 @@
 id	name	pronouns	
 CHN	China (Mandarin)	他 (tā) - they/them	
 IND	India	1173108018	not listed
-USA	United States (English)	they/them/theirs	
+USA	USA (English)	they/them/theirs	
 IDN	Indonesia	242968342	not listed
 BRA	Brazil (Portuguese)	"“@“, “x”, “u”, “i” word endings"	
 PAK	Pakistan	177276594	not listed
@@ -76,7 +76,7 @@ RWA	Rwanda	11055976	not listed
 GRC	Greece (Greek)	-ος ending words	
 PRT	Portugal	10735765	not listed
 TUN	Tunisia	10589025	not listed
-TCD	Chad	10543464	not listed
+TCD	Chad (Arabic)	"هما (huma), انتما (antuma) - they, you"	
 BEL	Belgium (Dutch)	"ze, hun, ze / zij, hen, hun -  they, them, theirs"	
 GIN	Guinea	10324025	not listed
 CZE	Czech Republic (Czech)	“oni/je/jejich/se” - they/them/their/themself	
@@ -112,7 +112,7 @@ KGZ	Kyrgyzstan	5508626	not listed
 SVK	Slovakia	5470306	not listed
 FIN	Finland (French)	"“hän”, “hänen” / “se”, “sen” - they, them / it "	
 SLE	Sierra Leone	5245695	not listed
-ARE	United Arab Emirates (Arabic)	"هما (huma), انتما (antuma) - they, you"	
+ARE	United Arab Emirates		not listed
 TKM	Turkmenistan	4940916	not listed
 CAF	Central African Republic	4844927	not listed
 SGP	Singapore	4701069	not listed
@@ -181,7 +181,7 @@ ISL	Iceland (Icelandic)	"""hán"" - they"
 180	Barbados	285653	not listed
 181	Mayotte	231139	not listed
 NCL	New Caledonia	229993	not listed
-183	Netherlands Antilles (West Frisian)	"je, jin, jins - they/them/theirs"	
+183	Netherlands (West Frisian)	"je, jin, jins - they/them/theirs"	
 VUT	Vanuatu	221552	not listed
 185	Samoa	192001	not listed
 186	Sao Tome and Principe	175808	not listed
