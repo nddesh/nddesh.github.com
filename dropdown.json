@@ -1,53 +1,66 @@
 [{
-    "name": "Alberta",
-    "abbreviation": "AB"
+    "country": "United States",
+    "locality": "Davis, California",
+    "abbreviation": "DV",
   },
   {
-    "name": "British Columbia",
-    "abbreviation": "BC"
+    "country": "England",
+    "locality": "Berkshire",
+    "abbreviation": "BK"
   },
   {
-    "name": "Manitoba",
-    "abbreviation": "MB"
+    "country": "United Arab Emirates",
+    "locality":"Sharjah",
+    "abbreviation": "SH"
   },
   {
-    "name": "New Brunswick",
-    "abbreviation": "NB"
+    "country": "Austrailia",
+    "locality": "Brisbane, Queensland",
+    "abbreviation": "BQ"
   },
   {
-    "name": "Newfoundland and Labrador",
-    "abbreviation": "NL"
+    "country": "Brazil",
+    "locality": "Sao Paulo",
+    "abbreviation": "SP"
   },
   {
-    "name": "Nova Scotia",
-    "abbreviation": "NS"
+    "country": "China",
+    "locality": "Bejing",
+    "abbreviation": "BJ"
   },
   {
-    "name": "Northwest Territories",
-    "abbreviation": "NT"
+    "country": "India",
+    "locality": "Pune, Maharashtra",
+    "abbreviation": "PN"
   },
   {
-    "name": "Nunavut",
-    "abbreviation": "NU"
+    "country": "Germany",
+    "locality": "Hamburg",
+    "abbreviation": "HM"
   },
   {
-    "name": "Ontario",
+    "country": "Canada",
+    "locality": "Toronto, Ontario",
     "abbreviation": "ON"
   },
   {
-    "name": "Prince Edward Island",
-    "abbreviation": "PE"
+    "country": "South Africa",
+    "locality": "Johannesburg",
+    "abbreviation": "JB"
   },
   {
-    "name": "Quebec",
-    "abbreviation": "QC"
+    "country": "Japan",
+    "locality": "Seoul",
+    "abbreviation": "SL"
   },
   {
-    "name": "Saskatchewan",
+    "country": "Russia",
+    "locality": "Moscow",
     "abbreviation": "SK"
   },
   {
-    "name": "Yukon",
-    "abbreviation": "YT"
+    "country": "Chile",
+    "locality": "Santiago",
+    "abbreviation": "SG"
   }
 ]
