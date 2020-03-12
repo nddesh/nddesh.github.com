@@ -1,66 +1,85 @@
 [{
     "country": "United States",
     "locality": "Davis, California",
-    "abbreviation": "DV"
+    "abbreviation": "DV",
+    "resource": "UC Davis LGBTQIA Resource Center",
+    "url": "https://lgbtqia.ucdavis.edu/"
   },
   {
     "country": "England",
     "locality": "Berkshire",
-    "abbreviation": "BK"
-  },
-  {
-    "country": "United Arab Emirates",
-    "locality":"Sharjah",
-    "abbreviation": "SH"
+    "abbreviation": "BK",
+    "resource": "Berkshire Stonewall Community Coalition",
+    "url": "http://berkshirestonewall.org/"
   },
   {
     "country": "Austrailia",
     "locality": "Brisbane, Queensland",
-    "abbreviation": "BQ"
+    "abbreviation": "BQ",
+    "resource": "The Gender Center Inc",
+    "url": "https://gendercentre.org.au/"
   },
   {
     "country": "Brazil",
     "locality": "Sao Paulo",
-    "abbreviation": "SP"
+    "abbreviation": "SP",
+    "resource": "ABGLT",
+    "url": "https://www.abglt.org/"
   },
   {
     "country": "China",
     "locality": "Bejing",
-    "abbreviation": "BJ"
+    "abbreviation": "BJ",
+    "resource": "Bejing LGBT Center",
+    "url": "https://www.thebeijinger.com/directory/beijing-lgbt-center"
   },
   {
     "country": "India",
     "locality": "Pune, Maharashtra",
-    "abbreviation": "PN"
+    "abbreviation": "PN",
+    "resource": "Samapathik",
+    "url": "http://samapathik.org/"
   },
   {
     "country": "Germany",
     "locality": "Hamburg",
-    "abbreviation": "HM"
+    "abbreviation": "HM",
+    "resource": "Magnus Hirschfeld Center",
+    "url": "https://www.mhc-hh.de/"
   },
   {
     "country": "Canada",
     "locality": "Toronto, Ontario",
-    "abbreviation": "ON"
+    "abbreviation": "ON",
+    "resource": "The 519",
+    "url": "https://www.the519.org/"
   },
   {
     "country": "South Africa",
     "locality": "Johannesburg",
-    "abbreviation": "JB"
+    "abbreviation": "JB",
+    "resource": "OUT",
+    "url": "https://www.out.org.za/"
   },
   {
     "country": "Japan",
     "locality": "Seoul",
-    "abbreviation": "SL"
+    "abbreviation": "SL",
+    "resource": "Resource: ",
+    "url": ""
   },
   {
     "country": "Russia",
     "locality": "Moscow",
-    "abbreviation": "SK"
+    "abbreviation": "SK",
+    "resource": "Russian LGBT Network ",
+    "url": "https://lgbtnet.org/en"
   },
   {
     "country": "Chile",
     "locality": "Santiago",
-    "abbreviation": "SG"
+    "abbreviation": "SG",
+    "resource": "Movilh",
+    "url": "https://www.movilh.cl/"
   }
 ]
