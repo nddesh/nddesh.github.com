@@ -1,3 +1,5 @@
+'use strict';
+
 const navLinks = document.querySelectorAll("nav ul li a");
 
 navLinks.forEach(function(eachLink) {
