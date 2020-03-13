@@ -1,84 +1,60 @@
 [{
-    "country": "United States",
-    "locality": "Davis, California",
-    "abbreviation": "DV",
+    "location": "Davis, California, United States",
     "resource": "UC Davis LGBTQIA Resource Center",
     "url": "https://lgbtqia.ucdavis.edu/"
   },
   {
-    "country": "England",
-    "locality": "Berkshire",
-    "abbreviation": "BK",
+    "location": "Berkshire, England",
     "resource": "Berkshire Stonewall Community Coalition",
     "url": "http://berkshirestonewall.org/"
   },
   {
-    "country": "Austrailia",
-    "locality": "Brisbane, Queensland",
-    "abbreviation": "BQ",
+    "location": "Brisbane, Queensland, Australia",
     "resource": "The Gender Center Inc",
     "url": "https://gendercentre.org.au/"
   },
   {
-    "country": "Brazil",
-    "locality": "Sao Paulo",
-    "abbreviation": "SP",
+    "location": "Sao Paulo, Brazil",
     "resource": "ABGLT",
     "url": "https://www.abglt.org/"
   },
   {
-    "country": "China",
-    "locality": "Bejing",
-    "abbreviation": "BJ",
+    "location": "Bejing, China",
     "resource": "Bejing LGBT Center",
     "url": "https://www.thebeijinger.com/directory/beijing-lgbt-center"
   },
   {
-    "country": "India",
-    "locality": "Pune, Maharashtra",
-    "abbreviation": "PN",
+    "location": "Pune, Maharashtra, India",
     "resource": "Samapathik",
     "url": "http://samapathik.org/"
   },
   {
-    "country": "Germany",
-    "locality": "Hamburg",
-    "abbreviation": "HM",
+    "location": "Hamburg, Germany",
     "resource": "Magnus Hirschfeld Center",
     "url": "https://www.mhc-hh.de/"
   },
   {
-    "country": "Canada",
-    "locality": "Toronto, Ontario",
-    "abbreviation": "ON",
+    "location": "Toronto, Ontario, Canada",
     "resource": "The 519",
     "url": "https://www.the519.org/"
   },
   {
-    "country": "South Africa",
-    "locality": "Johannesburg",
-    "abbreviation": "JB",
+    "location": "Johannesburg, South Africa",
     "resource": "OUT",
     "url": "https://www.out.org.za/"
   },
   {
-    "country": "Japan",
-    "locality": "Seoul",
-    "abbreviation": "SL",
-    "resource": "Resource: ",
-    "url": ""
+    "location": "Seoul, Japan",
+    "resource": "Solidarity for LGBT Human Rights of Korea",
+    "url": "http://lgbtpride.or.kr/"
   },
   {
-    "country": "Russia",
-    "locality": "Moscow",
-    "abbreviation": "SK",
+    "location": "Moscow, Russia",
     "resource": "Russian LGBT Network ",
     "url": "https://lgbtnet.org/en"
   },
   {
-    "country": "Chile",
-    "locality": "Santiago",
-    "abbreviation": "SG",
+    "location": "Santiago, Chile",
     "resource": "Movilh",
     "url": "https://www.movilh.cl/"
   }
