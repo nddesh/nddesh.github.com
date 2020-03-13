@@ -1,0 +1,355 @@
+body {
+  background: #ffffff;
+}
+
+/*HEADER WITH NAV*/
+header {
+  font-family: "Raleway-Regular", sans-serif;
+  font-size: 1em;
+  background: #083C70;
+  color: #00ABD0;
+  height: 110px;
+}
+
+header nav ul, li, a {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+  max-width: 1000px;
+}
+
+header nav a {
+  color: #00ABD0;
+  border-top: 2px solid #ffffff;
+  padding: 5px;
+  margin: 30px;
+  font-size: 1.2em;
+  -webkit-transition-duration: 0.2s;
+transition-duration: 0.2s;
+}
+
+header nav a:hover {
+  color: #FFC700;
+  border-top: 2px solid #FFC700;
+}
+
+#home {
+  padding: 10px;
+  background: #083C70;
+  width: 200px;
+  color: #ffffff;
+}
+
+#home:hover {
+  color: #FFC700;
+  -webkit-transition-duration: 0.2s;
+transition-duration: 0.2s;
+}
+
+/*TITLE WITH MAP*/
+#title {
+  background: #00ABD0;
+  margin-top: 40px;
+}
+
+#title div {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px;
+}
+
+h1 {
+  font-family: "Raleway-SemiBold", sans-serif;
+  font-size: 2.8em;
+  line-height: 1.2em;
+  color: #FFC700;
+  text-align: center;
+  margin-top: 0;
+}
+
+#title h2 {
+  font-family: "Raleway-SemiBold", sans-serif;
+  font-size: 1.5em;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/* MAP */
+
+.names {
+fill: none;
+stroke: #ffffff;
+stroke-linejoin: round;
+}
+
+  /* Tooltip CSS */
+  .d3-tip {
+  line-height: 1.5;
+  font-weight: 400;
+  font-family:"Raleway-Regular", sans-serif;
+  padding: 10px;
+  background: #083C70;
+  color: #FFC700;
+  border-radius: 1px;
+  pointer-events: none;
+  border: 3px solid #00ABD0;
+  }
+
+  /* Creates a small triangle extender for the tooltip */
+  .d3-tip:after {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 8px;
+    width: 100%;
+    line-height: 1.5;
+    color: #ffffff;
+    position: absolute;
+    pointer-events: none;
+  }
+
+  /* Northward tooltips */
+  .d3-tip.n:after {
+    content: "\25BC";
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
+    text-align: center;
+  }
+
+  /* Eastward tooltips */
+  .d3-tip.e:after {
+    content: "\25C0";
+    margin: -4px 0 0 0;
+    top: 50%;
+    left: -8px;
+  }
+
+  /* Southward tooltips */
+  .d3-tip.s:after {
+    content: "\25B2";
+    margin: 0 0 1px 0;
+    top: -8px;
+    left: 0;
+    text-align: center;
+  }
+
+  /* Westward tooltips */
+  .d3-tip.w:after {
+    content: "\25B6";
+    margin: -4px 0 0 -1px;
+    top: 50%;
+    left: 100%;
+  }
+
+/*    text{
+    pointer-events:none;
+  }*/
+
+  .details{
+    color: #ffffff;
+  }
+
+
+/* INFO SECTION ABOUT GENDER */
+#second {
+  background: #00ABD0;
+  margin: auto;
+  padding: 20px;
+}
+
+#second div {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#second article {
+  border: 2px solid #FFC700;
+  margin: 10px;
+  padding: 20px;
+}
+
+#second p {
+  font-family: "Raleway-Regular", sans-serif;
+  color: #083C70;
+  line-height: 1.4em;
+}
+
+#second h2 {
+  font-family: "Raleway-SemiBold", sans-serif;
+  font-size: 1.8em;
+  color: #ffffff;
+  text-align: left;
+  margin-top: 10px;
+}
+
+#second a {
+  color: #FFC700;
+  -webkit-transition-duration: 0.2s;
+transition-duration: 0.2s;
+  margin: 0;
+  padding: 0;
+}
+
+#second a:hover {
+  color: #ffffff;
+}
+
+/* EXPLORE RESOURCES FORM */
+#third {
+  background: #ffffff;
+  padding: 20px;
+}
+
+#third div {
+  max-width: 500px;
+  margin: auto;
+  padding: 10px;
+}
+
+#selectForm select {
+  margin: auto;
+  background-color: transparent;
+  color: #083C70;
+  border: 2px solid #00ABD0;
+  font-size: 1em;
+  width: 300px;
+  margin: 10px;
+}
+
+#third h2 {
+  color: #083C70;
+  font-family: "Raleway-SemiBold", sans-serif;
+  font-size: 1.8em;
+  text-align: center;
+  margin-top: 10px;
+}
+
+input[type=submit] {
+  font-family: "Raleway-Regular", sans-serif;
+  display: block;
+  background-color: #00ABD0;
+  color: #ffffff;
+  padding: 15px;
+  width: 300px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border: none;
+}
+
+#submit:hover {
+  background: #FFC700;
+  color: #083C70;
+  -webkit-transition-duration: 0.2s;
+transition-duration: 0.2s;
+  border: none;
+}
+
+h4 {
+  font-family: "Raleway-Regular", sans-serif;
+  color: #083C70;
+  font-size: 1.1em;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+#third a {
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+#third select {
+  display: block;
+  font-family: "Raleway-Regular", sans-serif;
+  background: none;
+  color: #083C70;
+  border: 2px solid #00ABD0;
+  width: 300px;
+  height: 45px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  font-family: "Raleway-Regular", sans-serif;
+    display: block;
+    padding: 25px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: #083C70;
+    border: 2px solid #FFC700;
+    -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+
+
+/* MORE RESOURCES */
+/* ADD TO MAP */
+#fourth {
+  background: #083C70;
+  margin: auto;
+  padding: 20px;
+}
+
+#fourth h3 {
+  color: #FFC700;
+  font-family: "Raleway-SemiBold", sans-serif;
+  font-size: 1.5em;
+  margin: auto;
+  text-align: center;
+}
+
+#fourth div {
+  padding: 20px;
+  max-width: 1000px;
+}
+
+#links {
+  margin: 0 auto;
+}
+
+#fourth ul, a {
+  font-family: "Raleway-Regular", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+#fourth a{
+  color: #00ABD0;
+  padding: 10px;
+  margin: 0;
+  -webkit-transition-duration: 0.2s;
+transition-duration: 0.2s;
+text-align: left;
+}
+
+#fourth a:hover {
+  color: #FFC700;
+}
+
+footer {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  justify-content: space-around;
+}

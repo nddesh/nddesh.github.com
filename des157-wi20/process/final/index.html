@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Gender Diversity</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+    <script src="http://d3js.org/d3.v4.min.js"></script>
+    <script src="http://d3js.org/queue.v1.min.js"></script>
+    <script src="http://d3js.org/topojson.v1.min.js"></script>
+
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#first" class="selected">Interactive Map</a></li>
+				<li><a href="#second">What is Gender?</a></li>
+				<li><a href="#third">Explore resources</a></li>
+				<li><a href="#fourth">More Resources</a></li>
+			</ul>
+		</nav>
+	</header>
+
+    <section id="title">
+      <div>
+        <h1>How do we address non-binary genders?</h1>
+        <h2>Click around the map to learn more about local terms used around the world.</h2>
+        <a href="../../index.html" id="home">Home Portal Page</a>
+      </div>
+    </section>
+
+	<section id="first">
+    <div></div>
+	</section>
+
+	<section id="second">
+    <div>
+      <article>
+        <h2>What is gender?</h2>
+        <p>Gender is your personal perception, consisting of many different genders other than male and female. According to the Human Rights Campaign, gender identity is the “innermost concept of self as male, female, a blend of both or neither – how individuals perceive themselves and what they call themselves.” Gender is often addressed using pronouns like she/her/hers, they/them/theirs etc. Gender is complicated because of societal expectations about behaviours and characteristics, which can have negative impacts like gender dysphoria, where someone experiences distress due to a mismatch between their gender identity and biological sex.</p>
+      </article>
+
+      <article>
+        <h2>What is sexuality?</h2>
+        <p>Sexuality is about who you are interested in being intimate with, in a relationship with, or interested in dating. The Human Rights Campaign describes sexual orientation as “the inherent or immutable enduring emotional, romantic or sexual attraction to other people.” Sexuality comes in many different forms and someone may be gay, straight, bisexual, pansexual or one of the many other sexual identities that exist. Someone who is asexual does not experience sexual attraction.</p>
+      </article>
+
+      <article>
+        <h2>How are they different?</h2>
+        <p>It’s a common misconception that gender identity and sexual orientation are connected. Although gender identity and sexual orientation are often confused, it’s an important distinction to understand as it can lead to stereotyping and incorrect assumptions. If someone is transgender, for example, many people automatically assume that they must also be gay. That, however, is not the case. As a consequence, some people are against the grouping together of “lesbian, gay, bisexual and transgender” in the acronym LGBT. It is important to remember that marginalisation and abuse on the basis of gender identity (transphobia) and sexual orientation (homophobia) are two separate issues.</p>
+      </article>
+    </div>
+	</section>
+
+	<section id="third">
+    <div>
+      <h2>Explore resources around you</h2>
+        <form id="myform">
+            <select id="location-dropdown" name="location"></select>
+
+          <input type="submit" value="Search" id="submit">
+        </form>
+
+      <div class="invisible" id="resource">
+        <h3>Resources:</h3>
+        <p>Resources</p>
+      </div>
+
+    </div>
+	</section>
+
+  <section id="fourth">
+    <div id="links">
+      <h3>More Resources</h3>
+      <ul>
+        <li><a href="https://www.hrc.org/resources/sexual-orientation-and-gender-identity-terminology-and-definitions">Human Rights Campaign</a></li>
+        <li><a href="https://www.pinknews.co.uk/2018/05/01/this-is-the-difference-between-gender-and-sexuality/">Pink News</a></li>
+        <li><a href="https://www.cbsnews.com/news/the-difference-between-sexual-orientation-and-gender-identity/">CBS News</a></li>
+        <li><a href="https://www.bustle.com/p/5-gender-neutral-terms-from-around-the-world-to-know-about-9193588">5 Gender-Neutral Terms From Around The World</a></li>
+        <li><a href="https://nonbinary.wiki/wiki/Pronouns">Non-Binary Wiki</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <p><a href="https://validator.w3.org/">Valid HTML</a></p>
+    <p><a href="https://jigsaw.w3.org/css-validator/">Valid CSS</a></p>
+  </footer>
+
+  <script src="smoothScroll.js"></script>
+  <script src="d3-tip.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
