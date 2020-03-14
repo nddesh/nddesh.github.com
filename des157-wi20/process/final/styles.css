@@ -315,7 +315,7 @@ h4 {
   font-family: "Raleway-SemiBold", sans-serif;
   font-size: 1.5em;
   margin: auto;
-  margin-left: -20px;
+  margin-left: 0px;
   text-align: center;
 }
 
@@ -330,7 +330,7 @@ h4 {
 }
 
 #fourth ul {
-  margin-left: -50px;
+  margin-left: -40px;
 }
 
 #fourth ul, a {
