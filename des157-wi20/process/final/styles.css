@@ -72,14 +72,31 @@ h1 {
 
 #title h2 {
   font-family: "Raleway-SemiBold", sans-serif;
-  font-size: 1.5em;
+  font-size: 1.6em;
   color: #ffffff;
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+}
+
+#title p {
+  font-family: "Raleway-Regular", sans-serif;
+  color: #ffffff;
+  font-size: 1em;
+  line-height: 1.4em;
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 /* MAP */
+
+#first div {
+  max-width: 1200px;
+  margin: auto;
+}
 
 .names {
 fill: none;
@@ -146,10 +163,6 @@ stroke-linejoin: round;
     left: 100%;
   }
 
-/*    text{
-    pointer-events:none;
-  }*/
-
   .details{
     color: #ffffff;
   }
@@ -175,12 +188,27 @@ stroke-linejoin: round;
   border: 2px solid #FFC700;
   margin: 10px;
   padding: 20px;
+  max-width: 400px;
 }
 
 #second p {
   font-family: "Raleway-Regular", sans-serif;
   color: #083C70;
   line-height: 1.4em;
+}
+
+#blockQuote {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#blockQuote1 {
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+#blockQuote2 {
+  font-weight: bold;
+  margin-bottom: 40px;
 }
 
 #second h2 {
